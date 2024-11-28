@@ -2953,12 +2953,8 @@ var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 class Employee extends (0, _reactDefault.default).Component {
-    eid;
-    eName;
-    constructor(eid, eName){
-        super();
-        this.eid = eid;
-        this.eid = eName;
+    constructor(props){
+        super(props);
     }
     render() {
         return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
@@ -2967,14 +2963,14 @@ class Employee extends (0, _reactDefault.default).Component {
                     children: this.props.eid
                 }, void 0, false, {
                     fileName: "Employee.js",
-                    lineNumber: 25,
+                    lineNumber: 23,
                     columnNumber: 13
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                     children: this.props.eName
                 }, void 0, false, {
                     fileName: "Employee.js",
-                    lineNumber: 26,
+                    lineNumber: 24,
                     columnNumber: 13
                 }, this)
             ]
@@ -2983,10 +2979,10 @@ class Employee extends (0, _reactDefault.default).Component {
 }
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Employee, {
     eid: "123",
-    eName: "dinesh"
+    eName: "Vinod GOwda"
 }, void 0, false, {
     fileName: "Employee.js",
-    lineNumber: 35,
+    lineNumber: 33,
     columnNumber: 13
 }, undefined));
 

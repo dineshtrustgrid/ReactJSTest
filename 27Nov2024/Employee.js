@@ -6,18 +6,16 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 class Employee extends React.Component{
 
-    eid;
-    eName;
+    
 
-    constructor(eid,eName){
-        super()
-        this.eid = eid;
-        this.eid = eName;
+    constructor(props){
+        super(props)
+       
     }
 
     render(){
 
-
+        
 
         return(
             <>
@@ -32,4 +30,4 @@ class Employee extends React.Component{
 
 }
 
-root.render(<Employee eid="123" eName="dinesh"/>);
+root.render(<Employee eid="123" eName="Vinod GOwda"/>);
